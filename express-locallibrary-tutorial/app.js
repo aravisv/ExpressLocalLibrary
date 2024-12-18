@@ -9,6 +9,8 @@ const usersRouter = require("./routes/users");
 
 const app = express();
 
+//dummy line to check git setup
+
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
